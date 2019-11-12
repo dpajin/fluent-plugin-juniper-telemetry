@@ -18,7 +18,7 @@ gems-build:
 	docker run -i -t \
 	    --volume $(shell pwd):/home/fluent/fluentd-plugin-juniper-telemetry \
 			-w /home/fluent/fluentd-plugin-juniper-telemetry \
-	    fluent-plugin-juniper-telemetry gem build fluent-plugin-juniper-telemetry.gemspec
+	    fluent-plugin-juniper-telemetry gem build fluent-plugin-jti-fw-only.gemspec
 
 			# gem build fluentd-plugin-juniper-telemetry/fluent-plugin-juniper-telemetry.gemspec
 
